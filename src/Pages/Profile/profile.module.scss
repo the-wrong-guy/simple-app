@@ -1,0 +1,42 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+}
+
+.header {
+  padding-bottom: 2rem;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.paper {
+  padding: 0.5rem;
+  width: 400px;
+  .detailsDiv {
+    label {
+      font-size: 1.1rem;
+      font-weight: 600;
+    }
+    span {
+      color: grey;
+      word-wrap: break-word;
+    }
+  }
+}
+
+.skills {
+  background-color: rgb(134, 28, 255);
+  padding: 0.3rem 0.7rem;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 0.9rem;
+}
+
+@media screen and(max-width: 550px) {
+  .paper {
+    width: 90vw;
+  }
+}

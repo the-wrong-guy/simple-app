@@ -1,0 +1,23 @@
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: grid;
+  place-items: center;
+}
+
+.gridWrapper {
+  padding: 1rem;
+  width: 450px;
+}
+
+.gridContainer {
+  width: 100% !important;
+  margin: 0 !important;
+}
+
+@media screen and(max-width: 550px) {
+  .gridWrapper {
+    width: 90vw;
+  }
+}

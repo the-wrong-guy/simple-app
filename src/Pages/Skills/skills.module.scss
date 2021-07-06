@@ -1,0 +1,29 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  display: grid;
+  place-content: center;
+  justify-items: center;
+}
+
+.header {
+  margin: 2rem 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.snackbar {
+  padding: 0.5rem;
+  background-color: rgb(255, 174, 0) !important;
+}
+
+.paper {
+  width: 400px;
+}
+
+@media screen and(max-width: 550px) {
+  .paper {
+    width: 90vw;
+  }
+}
